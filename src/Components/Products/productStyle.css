@@ -1,0 +1,30 @@
+.products{
+    margin: 0 0 5em;
+}
+
+.productsHeader{
+    background-image: url("../../images/choose_bottom_cross.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10em;
+}
+
+.productsTitle{
+    padding: 2em ;
+}
+
+.product-row{
+    margin: 0 auto;
+    margin-left: 2em;
+}
+
+.productImage{
+    width: 100%;
+    height: 17em;
+    margin-bottom: 0.75em;
+}
+
+.product{
+    display: inline;
+    margin: 0.75em;
+}

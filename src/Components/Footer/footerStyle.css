@@ -1,0 +1,13 @@
+.footer{
+    background-color: rgba(255, 255, 0, 0.963);
+    position: absolute;
+    width: 100%;
+}
+
+.footerPara{
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}

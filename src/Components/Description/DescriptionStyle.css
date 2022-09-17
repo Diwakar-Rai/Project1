@@ -1,0 +1,36 @@
+.description{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-gap: 5em;
+    margin: 10em 0;
+    padding: 0 5em;
+}
+
+.leftSection{
+    display: flex;
+    align-self: center;
+}
+
+.leftSectionHeader{
+    font-size: 3em;
+}
+
+.rightSection{
+    background-color: rgb(252, 232, 11);
+    padding: 2em;
+    color: white;
+    font-size: 1.25em;
+    border-radius: 5px; 
+    position: relative;
+}
+
+.rightSection.arrow:after{
+    content: "";
+    position:absolute;
+    left: -1em;
+    top:48%;
+    border-top: 1em solid transparent;
+    border-right: 1em solid rgb(252, 232, 11);
+    border-left: none;
+    border-bottom: 1em solid transparent;
+}
